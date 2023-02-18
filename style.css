@@ -1,5 +1,23 @@
-@import url("https://use.typekit.net/jmk3xov.css");
+@font-face {
+  font-family: 'terminessttf_nfmedium';
+  src: url('terminess_ttf_nerd_font_complete_mono_windows_compatible-webfont.woff2') format('woff2'),
+       url('terminess_ttf_nerd_font_complete_mono_windows_compatible-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
+}
+@font-face {
+  font-family: 'font_awesome_5_freeregular';
+  src: url('font_awesome_5_free-regular-400-webfont.woff2') format('woff2'),
+       url('font_awesome_5_free-regular-400-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+* {
+  font-family: 'terminessttf_nfmedium';
+}
 canvas {
   position: fixed;
   top: 0;
@@ -11,7 +29,6 @@ canvas {
   --dark-bg: rgba(15, 15, 15, 0);
   --spacing: 350px;
 
-  font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -31,7 +48,6 @@ main {
 }
 
 h1, h2, h3, blockquote {
-  font-family: elevon, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
